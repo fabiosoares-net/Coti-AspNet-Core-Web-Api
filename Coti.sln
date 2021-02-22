@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{5381CC99-38A5-4B5A-A9EB-7AA9CB2FDB93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{FBB5CB0F-75E2-42CA-8911-EEC1EFC150D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{E81CD688-F5BD-4289-AAB8-ACB21B2E821A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{794460D6-F932-4B56-A55F-838F33ECCE59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{2E2D5AAC-2954-4D93-A121-723A6D1BD0AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coti.Domain", "src\3 - Domain\Coti.Domain\Coti.Domain.csproj", "{25E3D61C-6C6D-4263-8DA8-A31308F648E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coti.Infrastructure.Context", "src\4 - Infrastructure\Coti.Infrastructure.Context\Coti.Infrastructure.Context.csproj", "{73A249A7-FCD5-49DA-9960-B4F31D038C8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coti.Infrastructure.Data", "src\4 - Infrastructure\Coti.Infrastructure.Data\Coti.Infrastructure.Data.csproj", "{69C23513-852D-4583-9D57-835EC42DEB4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coti.Test", "test\Coti.Test\Coti.Test.csproj", "{1312D672-0725-45AC-AE08-4A5EFC7C3FC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coti.Application", "src\2 - Application\Coti.Application\Coti.Application.csproj", "{21A9D46A-38FE-4820-B39F-7033615E9E6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coti.Api", "src\1 - Presentation\Coti.Api\Coti.Api.csproj", "{488DEF1B-44BB-4D0B-9920-7204E91F8F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coti.Infrastructure.Injector", "src\4 - Infrastructure\Coti.Infrastructure.Injector\Coti.Infrastructure.Injector.csproj", "{03DE1CD6-13DD-46EB-8788-A56958CEE643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25E3D61C-6C6D-4263-8DA8-A31308F648E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E3D61C-6C6D-4263-8DA8-A31308F648E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E3D61C-6C6D-4263-8DA8-A31308F648E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E3D61C-6C6D-4263-8DA8-A31308F648E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A249A7-FCD5-49DA-9960-B4F31D038C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A249A7-FCD5-49DA-9960-B4F31D038C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A249A7-FCD5-49DA-9960-B4F31D038C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A249A7-FCD5-49DA-9960-B4F31D038C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C23513-852D-4583-9D57-835EC42DEB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C23513-852D-4583-9D57-835EC42DEB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C23513-852D-4583-9D57-835EC42DEB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C23513-852D-4583-9D57-835EC42DEB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1312D672-0725-45AC-AE08-4A5EFC7C3FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1312D672-0725-45AC-AE08-4A5EFC7C3FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1312D672-0725-45AC-AE08-4A5EFC7C3FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1312D672-0725-45AC-AE08-4A5EFC7C3FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A9D46A-38FE-4820-B39F-7033615E9E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A9D46A-38FE-4820-B39F-7033615E9E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A9D46A-38FE-4820-B39F-7033615E9E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A9D46A-38FE-4820-B39F-7033615E9E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488DEF1B-44BB-4D0B-9920-7204E91F8F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488DEF1B-44BB-4D0B-9920-7204E91F8F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488DEF1B-44BB-4D0B-9920-7204E91F8F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488DEF1B-44BB-4D0B-9920-7204E91F8F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DE1CD6-13DD-46EB-8788-A56958CEE643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DE1CD6-13DD-46EB-8788-A56958CEE643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DE1CD6-13DD-46EB-8788-A56958CEE643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DE1CD6-13DD-46EB-8788-A56958CEE643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25E3D61C-6C6D-4263-8DA8-A31308F648E2} = {E81CD688-F5BD-4289-AAB8-ACB21B2E821A}
+		{73A249A7-FCD5-49DA-9960-B4F31D038C8B} = {794460D6-F932-4B56-A55F-838F33ECCE59}
+		{69C23513-852D-4583-9D57-835EC42DEB4F} = {794460D6-F932-4B56-A55F-838F33ECCE59}
+		{1312D672-0725-45AC-AE08-4A5EFC7C3FC7} = {2E2D5AAC-2954-4D93-A121-723A6D1BD0AA}
+		{21A9D46A-38FE-4820-B39F-7033615E9E6D} = {FBB5CB0F-75E2-42CA-8911-EEC1EFC150D3}
+		{488DEF1B-44BB-4D0B-9920-7204E91F8F1A} = {5381CC99-38A5-4B5A-A9EB-7AA9CB2FDB93}
+		{03DE1CD6-13DD-46EB-8788-A56958CEE643} = {794460D6-F932-4B56-A55F-838F33ECCE59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A5EED15-7551-4E49-BF09-1081ED25E573}
+	EndGlobalSection
+EndGlobal
